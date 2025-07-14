@@ -124,3 +124,8 @@ export async function GET() {
   }
 }
   */}
+
+  // app/seed/route.ts
+export async function GET() {
+  return new Response('Seed route working');
+}
